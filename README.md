@@ -32,6 +32,7 @@ Implementing the AI agent
 Measure the performance parameters
 
 ## PROGRAM
+```
 import random
 
 class Thing:
@@ -228,10 +229,12 @@ if __name__ == "__main__":
     print('\033[1m' + 'After Action\n' + '\033[0m',environment.status)
     print('\033[1m' + 'Agent Location\n' + '\033[0m',agent.location)
     print('\033[1m' + 'Agent Performance\n' + '\033[0m',agent.performance)
+```
 
 ## OUTPUT
+
 ![](images/output.png)
 
 ## RESULT
-Thus, an AI agent was developed and PEAS description is given. 
 
+Thus, an AI agent was developed and PEAS description is given. 
