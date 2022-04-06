@@ -8,6 +8,10 @@ To find the PEAS description for the given AI problem and develop an AI agent.
 Explain the problem statement
 
 ## PEAS DESCRIPTION
+| Agent Type  | Performance Measure | Environment  | Actuators | Sensors |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| Content Cell  | Content Cell  | Content Cell  | Content Cell  | ------------- |
+
 
 
 ## DESIGN STEPS
