@@ -18,18 +18,19 @@ A vacuum-cleaner world with just two locations.
 
 ## DESIGN STEPS
 ### STEP 1:
-The inputs are location
-
+The inputs are location of the agent and the status of the location.
 ### STEP 2:
-Identifying the output:
-
-### STEP 3:
-Developing the PEAS description:
+The output of the system is Right Left and Suck.
+### STEP 3: 
+Agent Type:Vaccum Cleaner
+Performance Measure: Cleanliness , Number of Movements
+Environment: Rooms
+Actuators: Wheels and Suction tool
+Sensor: Location Sensor and Cleanliness sensor
 ### STEP 4:
-Implementing the AI agent
-
+The agent should detect the location and suck if the location it is dirty,else it should move to the next location.
 ### STEP 5:
-Measure the performance parameters
+The performance is measured with the number of movements and the cleaning action of the agent.
 
 ## PROGRAM
 ```
