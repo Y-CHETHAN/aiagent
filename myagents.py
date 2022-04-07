@@ -31,7 +31,6 @@ class Agent(Thing):
 
 def TableDrivenAgentProgram(table):
     """
-    [Figure 2.7]
     This agent selects an action based on the percept sequence.
     It is practical only for tiny domains.
     To customize it, provide as table a dictionary of all
@@ -189,6 +188,10 @@ if __name__ == "__main__":
     agent = TableDrivenVacuumAgent()
     environment = TrivialVacuumEnvironment()
     environment.add_thing(agent)
-    print(environment.status)
-    environment.run()
-    print(agent.performance)
+    print('\033[1m' + 'Before Execution\n' + '\033[0m',environment.status)
+    print('\033[1m' + 'Agent Location\n' + '\033[0m',agent.location)
+    print('\033[1m' + 'Agent Performance Before Execution\n' + '\033[0m',agent.performance)
+    environment.run(steps=5)
+    print('\033[1m' + 'After Execution\n' + '\033[0m',environment.status)
+    print('\033[1m' + 'Agent Location\n' + '\033[0m',agent.location)
+    print('\033[1m' + 'Agent Performance After Execution\n' + '\033[0m',agent.performance)
