@@ -18,7 +18,7 @@ A vacuum-cleaner world with just two locations.
 
 ## DESIGN STEPS
 ### STEP 1:
-Identifying the input:
+The inputs are location
 
 ### STEP 2:
 Identifying the output:
@@ -223,17 +223,18 @@ if __name__ == "__main__":
     agent = TableDrivenVacuumAgent()
     environment = TrivialVacuumEnvironment()
     environment.add_thing(agent)
-    print('\033[1m' + 'Before Action\n' + '\033[0m',environment.status)
+    print('\033[1m' + 'Before Execution\n' + '\033[0m',environment.status)
     print('\033[1m' + 'Agent Location\n' + '\033[0m',agent.location)
-    environment.run(steps=1)
-    print('\033[1m' + 'After Action\n' + '\033[0m',environment.status)
+    print('\033[1m' + 'Agent Performance Before Execution\n' + '\033[0m',agent.performance)
+    environment.run(steps=5)
+    print('\033[1m' + 'After Execution\n' + '\033[0m',environment.status)
     print('\033[1m' + 'Agent Location\n' + '\033[0m',agent.location)
-    print('\033[1m' + 'Agent Performance\n' + '\033[0m',agent.performance)
+    print('\033[1m' + 'Agent Performance After Execution\n' + '\033[0m',agent.performance)
 ```
 
 ## OUTPUT
 
-![](images/output.png)
+![output](https://user-images.githubusercontent.com/75234991/162210867-fc603a32-70d6-4d2f-a418-c9a0c2ae80f7.png)
 
 ## RESULT
 
