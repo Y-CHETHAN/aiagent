@@ -28,7 +28,6 @@ Agent Type: Vaccum Cleaner
 <br>Actuators: Wheels and Suction tool
 <br>Sensor: Location Sensor and Cleanliness sensor
 
-<br><br><br>
 ### STEP 4:
 The agent should detect the location and suck if the location it is dirty,else it should move to the next location.
 ### STEP 5:
