@@ -20,13 +20,15 @@ A vacuum-cleaner world with just two locations.
 ### STEP 1:
 The inputs are location of the agent and the status of the location.
 ### STEP 2:
-The output of the system is Right Left and Suck.
+The output of the system is Right, Left and Suck.
 ### STEP 3: 
-Agent Type:Vaccum Cleaner
+Agent Type: Vaccum Cleaner
 Performance Measure: Cleanliness , Number of Movements
 Environment: Rooms
 Actuators: Wheels and Suction tool
 Sensor: Location Sensor and Cleanliness sensor
+
+<br><br><br>
 ### STEP 4:
 The agent should detect the location and suck if the location it is dirty,else it should move to the next location.
 ### STEP 5:
