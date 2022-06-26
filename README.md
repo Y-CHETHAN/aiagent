@@ -239,7 +239,7 @@ if __name__ == "__main__":
     print('\033[1m' + 'Agent Location\n' + '\033[0m',agent.location)
     print('\033[1m' + 'Agent Performance After Execution\n' + '\033[0m',agent.performance)
 ```
-<br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br>
 ## OUTPUT:
 
 ![output](https://user-images.githubusercontent.com/75234991/162210867-fc603a32-70d6-4d2f-a418-c9a0c2ae80f7.png)
