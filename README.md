@@ -23,10 +23,10 @@ The inputs are location of the agent and the status of the location.
 The output of the system is Right, Left and Suck.
 ### STEP 3: 
 Agent Type: Vaccum Cleaner
-Performance Measure: Cleanliness , Number of Movements
-Environment: Rooms
-Actuators: Wheels and Suction tool
-Sensor: Location Sensor and Cleanliness sensor
+<br>Performance Measure: Cleanliness , Number of Movements
+<br>Environment: Rooms
+<br>Actuators: Wheels and Suction tool
+<br>Sensor: Location Sensor and Cleanliness sensor
 
 <br><br><br>
 ### STEP 4:
